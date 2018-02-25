@@ -3,9 +3,7 @@ title: Android Applications Reverse Engineering Cheat Sheet
 updated: 2017-25-02 13:37
 ---
 
-# Android Applications Reverse Engineering Cheatsheet
-
-## Android Reversing 101
+# Android Reversing 101
 
 ### Developer Options and USB Debugging
 
@@ -66,13 +64,13 @@ keytool -genkey -v -keystore android_keystore.ks -alias alias_name -keyalg RSA -
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore android_keystore.ks application_debug.apk alias_name
 ```
 
-## Tools
+# Tools
 
  * **apktool** [https://github.com/iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
  * **keytool**
  * **jarsigner**
 
-## Common errors 
+# Common errors 
 
 ### Insufficient permissions for device: udev requires plugdev group membership
 
